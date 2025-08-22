@@ -20,6 +20,7 @@ const skills = [
     { name: "Docker", level: 20, category: "tools" },
     { name: "Figma", level: 65, category: "tools" },
     { name: "VS Code", level: 90, category: "tools" },
+    { name: "Postman", level: 75, category: "tools" },
 
 ]
 
