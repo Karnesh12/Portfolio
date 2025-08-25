@@ -10,7 +10,7 @@ export const HeroSection = () => {
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Silva</span>
                 </h1>
 
-                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
                     I am an IT undergraduate and aspiring frontend and backend developer with expertise in Java and MERN stack, passionate about software engineering and gaining real-world experience.
                 </p>
 

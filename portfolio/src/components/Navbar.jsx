@@ -31,7 +31,7 @@ export const Navbar = () => {
 
         <div className="container flex items-center justify-between">
             <a className="text-xl font-bold text-primary flex items-center" href="#hero">
-                <span className="ralative z-10">
+                <span className="relative z-10">
                     <span className="text-glow text-foreground"> Karnesh </span>{" "}
                     Portfolio
                 </span>
@@ -52,7 +52,7 @@ export const Navbar = () => {
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
 
-            <div className={cn("fixed inset-0 bg-background/95 backdroup-blur-md z-40 flex flex-col items-center justify-center",
+            <div className={cn("fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
             "transition-all duration-300 md:hidden",
             isMenuOpen
              ? "opacity-100 pointer-events-auto"
@@ -64,7 +64,7 @@ export const Navbar = () => {
                     key={key}
                     href={item.href}
                     className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    onClick={() => setIsMenueOpen(false)}
+                    onClick={() => setIsMenuOpen(false)}
                     >
                         {item.name}
                     </a>

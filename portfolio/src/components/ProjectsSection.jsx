@@ -45,9 +45,9 @@ export const ProjectsSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {projects.map((project, key) => (
-                    <div key={key} className="group bg-card ronded-lg overflow-hidden shadow-xs cad-hover">
+                    <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                         <div className="h-48 overflow-hidden">
-                            <img src={project.image} alt={project.title} className="w-full h-full object cover transition-transform duration-500 group-hover:scale-110"/>
+                            <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
                         </div>
 
                         <div className="p-6">
@@ -82,7 +82,7 @@ export const ProjectsSection = () => {
 
             <div className="text-center mt-12">
                 <a className="cosmic-button w-fit flex items-center mx-auto gap-2" target="_blank" href="https://github.com/Karnesh12">
-                    Ckeck My Github <ArrowRight size={16} />
+                    Check My Github <ArrowRight size={16} />
                 </a>
             </div>
         </div>
